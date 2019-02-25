@@ -7,7 +7,7 @@ content_file.close()
 # FOR LOOP
 # first convert content into lists
 
-fruits_list = fruits.splitlines()
+fruits_list = fruits.splitlines() # converts to list ['something', 'another', 'more']
 
 for each_fruit in fruits_list:
     print(each_fruit + " is a fruit")

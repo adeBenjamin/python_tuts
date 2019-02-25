@@ -1,0 +1,14 @@
+Dude.. i just added text to a file from the python cliNew line + random text/nNew line + random text
+New line + random text
+
+>>> help(open) on the py terminal will show options for the open modules
+
+to add text takes three steps:
+1 - newfile = open("file.txt", 'w') # the w option is an argument that gets passed to create a NEW file called file.text
+2 - newfile.write("sometext sometext \nNewline + plus some more text")
+3 - newfile.close() # saves and closes the file
+
+append to the end of the file:
+1 - newfile = open..... add the 'a' argument to append file at the end
+2 - ....
+3 - .close()
